@@ -16,8 +16,6 @@ class HTTPHelper(object):
         self._query = {}
         self._env = {}
         
-        output = open(os.environ['res'], "w")
-        
         for x in os.environ:
             if x[:12] == "REQ_HEADERS_":
                 self._headers[x[12:].lower()] = os.environ[x]
