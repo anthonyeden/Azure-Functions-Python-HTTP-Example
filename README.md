@@ -1,7 +1,7 @@
 ![Azure Functions + Python HTTP](http://mediarealm.com.au/wp-content/uploads/2016/05/Azure-Functions-Python-HTTP.png)
 
-# Azure Functions + Python HTTP Example
-Example code and helper class for Azure Functions (written in Python).
+# Azure Functions + Python HTTP Example Code
+*Example code and helper class for Azure Functions (written in Python).*
 
 This example code is designed to demonstrate how to use Azure Functions with Python for HTTP Triggers. It demonstrates:
 
@@ -13,3 +13,5 @@ This example code is designed to demonstrate how to use Azure Functions with Pyt
 * Viewing all system environmental variables
 
 Included is a simple HTTP Helper Class to parse the input data. This should make code changes easier when the Azure Functions team introduce a new interface for Python.
+
+See also: http://mediarealm.com.au/articles/2016/05/azure-functions-python-http-example-code/
