@@ -36,7 +36,7 @@ print
 # All data to be returned to the client gets put into this dict
 returnData = {
     #HTTP Status Code:
-    "status": 200,
+    "status": str(200),
     
     #Response Body:
     "body": "<h1>Azure Works :)</h1>",
